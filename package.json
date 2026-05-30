@@ -1,0 +1,22 @@
+{
+  "name": "cicd-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "echo Build Successful",
+    "package": "zip -r artifact.zip ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.4.1",
+    "jest": "^30.4.2"
+  }
+}
